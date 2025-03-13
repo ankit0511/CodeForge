@@ -1,56 +1,97 @@
-<h1 align="center" id="title">Code Forge</h1>
+# CodeForge
 
-<p align="center"><img src="https://socialify.git.ci/ankit0511/CodeForge/image?font=Source+Code+Pro&amp;language=1&amp;name=1&amp;owner=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
+<p align="center">
+  <img src="https://socialify.git.ci/ankit0511/CodeForge/image?font=Source+Code+Pro&language=1&name=1&owner=1&stargazers=1&theme=Dark" alt="CodeForge Logo">
+</p>
 
-<p id="description">CodeForge is a platform where developers can share their projects with other developers. Showcase your innovative designs and full stack projects inspire others and build your professional portfolio. With CodeForge your talent gets noticed by top companies.</p>
+## 🚀 About CodeForge
 
-<h2>🚀 Demo</h2>
+**CodeForge** is a collaborative platform where developers can showcase their projects, inspire others, and build a professional portfolio. This platform helps developers highlight their work, get noticed by top companies, and connect with like-minded professionals.
 
-[https://www.canva.com/design/DAGhZELWacA/QsL7ySHcf840VZW2C3YGHg/edit?utm\_content=DAGhZELWacA&utm\_campaign=designshare&utm\_medium=link2&utm\_source=sharebutton](https://www.canva.com/design/DAGhZELWacA/QsL7ySHcf840VZW2C3YGHg/edit?utm_content=DAGhZELWacA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+## ✨ Features
 
-  
-  
-<h2>🧐 Features</h2>
+- 🌟 **Showcase Your Projects** – Share your work with a wide audience.
+- 💡 **Inspire Others** – Influence and inspire developers and designers with your creativity.
+- 📂 **Build Your Professional Portfolio** – Create a well-structured portfolio to showcase your skills.
+- 🤝 **Connect with Developers** – Engage with other developers and grow your network.
+- 🔗 **Cross-Platform Connectivity** – Link your profiles from GitHub, LinkedIn, and other platforms to maximize visibility.
+- 📢 **Community Discussions** – Participate in discussions, get feedback, and improve your projects.
 
-Here're some of the project's best features:
+## 🛠️ Installation Steps
 
-*   Showcase Your Projects and Designs: Share your work with a wide audience.
-*   Inspire Others: Inspire other developers and UI/UX designers with your creativity.
-*   Build Your Professional Portfolio: Create a comprehensive portfolio to showcase your skills.
+Follow these steps to set up CodeForge on your local machine:
 
-<h2>🛠️ Installation Steps:</h2>
+### 1️⃣ Clone the Repository
 
-<p>1. 1. Clone the repository:</p>
-
-````
-```bash    git clone https://github.com/ankit0511/CodeForge.git    cd CodeForge    ```
-````
-
-<p>2. Create a `.env` file in the root directory with the following variables:</p>
-
-```
-GOOGLE_CLIENT_ID=    GOOGLE_CLIENT_SECRET=    MONGODB_URI=    CLOUDINARY_CLOUD_NAME=    CLOUDINARY_API_KEY=    CLOUDINARY_API_SECRET=    NEXTAUTH_SECRET=
+```bash
+ git clone https://github.com/ankit0511/CodeForge.git
+ cd CodeForge
 ```
 
-<p>3. Build and run the Docker containers:</p>
+### 2️⃣ Set Up Environment Variables
 
+Create a `.env` file in the root directory and add the following variables:
+
+```plaintext
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+MONGODB_URI=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+NEXTAUTH_SECRET=
 ```
+
+### 3️⃣ Run the Project using Docker
+
+```bash
  docker-compose up --build
 ```
 
-<h2>🍰 Contribution Guidelines:</h2>
+## 🍰 Contribution Guidelines
 
-Clone the Repository git clone https://github.com/your-username/CodeForge.git cd CodeForge Create a Branch Make Your Changes Ensure your code follows best practices. Keep commits small and meaningful. Follow the existing code structure. Test Your Changes Run npm run dev to test locally. Ensure everything is working as expected. Commit and Push
+Want to contribute? Follow these steps:
 
-  
-  
-<h2>💻 Built with</h2>
+1. **Fork the Repository**
+2. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/CodeForge.git
+   cd CodeForge
+   ```
+3. **Create a New Branch**
+   ```bash
+   git checkout -b feature-branch
+   ```
+4. **Make Your Changes**
+   - Follow best coding practices.
+   - Keep commits small and meaningful.
+   - Maintain the existing code structure.
+5. **Test Your Changes**
+   ```bash
+   npm run dev
+   ```
+6. **Commit and Push**
+   ```bash
+   git commit -m "Added new feature"
+   git push origin feature-branch
+   ```
+7. **Create a Pull Request**
 
-Technologies used in the project:
+## 💻 Built With
 
-*   Next.js
-*   MongoDB
-*   Mongoose
-*   Express
-*   Cloudinary
-*   TypeScript
+The project is built using:
+
+- 🚀 **Next.js** – React-based framework for server-side rendering.
+- 🛢 **MongoDB & Mongoose** – NoSQL database and schema modeling.
+- ⚡ **Express.js** – Fast and lightweight backend framework.
+- ☁ **Cloudinary** – Image storage and management.
+- 🟦 **TypeScript** – Type-safe JavaScript for better maintainability.
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+🎉 **Happy Coding!** 🚀
+
