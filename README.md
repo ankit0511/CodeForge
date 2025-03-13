@@ -85,7 +85,7 @@ The project is built using:
 - 🛢 **MongoDB & Mongoose** – NoSQL database and schema modeling.
 - ⚡ **Express.js** – Fast and lightweight backend framework.
 - ☁ **Cloudinary** – Image storage and management.
-- 🟦 **TypeScript** – Type-safe JavaScript for better maintainability.
+- 🟦 **JavaScriptScript** –  JavaScript for better maintainability.
 
 ## 📜 License
 
