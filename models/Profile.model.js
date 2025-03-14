@@ -1,7 +1,7 @@
 const { Schema, models, model } = require("mongoose");
 const ProfileSchema = new Schema({
     linkedin: {
-      type: Schema.Types.Mixed,
+      type: String,
       
     },
     github: {
@@ -10,11 +10,11 @@ const ProfileSchema = new Schema({
     },
     leetcode: {
       type: String,
-      required: true
+     
     },
     stackoverflow: {
-      type: Date,
-      default: Date.now
+      type: String,
+      
     },
     twitter:{
       type: String
