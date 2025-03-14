@@ -149,11 +149,7 @@ export const backendTechnologies = [
   'Supabase',
   'AWS Lambda',
   'Google Cloud Functions',
-  'Azure Functions',
-  'Vercel',
-  'Netlify Functions',
-  'Serverless Framework',
-  'Other'
+  
 ];
 
 export const useCases = [
