@@ -31,7 +31,7 @@ export default function Document() {
         <meta property="twitter:image" content="https://www.CodeForge.com/logo.png" />
         <meta name="google-site-verification" content="MOx4PN5L7uXCe9j_UJcGOzzr2jUGwSF7IoBdKIh1feA" />
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5192351891726200"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
       </Head>
       <body>
         <Main />
